@@ -12,7 +12,7 @@ ApartmentBuilding::ApartmentBuilding(int capa):capacity(capa),current_numer_of_u
 	u_list = new Unit[capacity];
 
 }
-int ApartmentBuilding::get_capicity() {
+int ApartmentBuilding::get_capacity() {
 	return capacity;
 }
 int ApartmentBuilding::get_current_number_of_units() {
