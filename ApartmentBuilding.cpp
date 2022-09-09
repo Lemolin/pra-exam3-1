@@ -19,9 +19,7 @@ int ApartmentBuilding::get_current_number_of_units() {
 	return current_numer_of_units;
 }
 Unit* ApartmentBuilding::get_contents() {
-	for (int i = 0; i < current_numer_of_units; i++) {
-		return u_list;
-	}
+	return u_list;
 }
 bool ApartmentBuilding::add_unit(Unit unit) {
 	if (current_numer_of_units > capacity) {
