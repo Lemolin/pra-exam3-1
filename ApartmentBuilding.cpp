@@ -3,8 +3,9 @@
 using namespace std;
 
 ApartmentBuilding::ApartmentBuilding() {
-	u_list = new Unit[capacity];
+	
 	capacity = 10;
+	u_list = new Unit[capacity];
 	current_numer_of_units = 0;
 
 }
