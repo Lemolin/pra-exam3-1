@@ -27,7 +27,7 @@ Unit* ApartmentBuilding::get_contents() {
 bool ApartmentBuilding::add_unit(Unit unit) {
 	if (current_numer_of_units < capacity) {
 		u_list[current_numer_of_units] = unit;
-		current_numer_of_units++;
+		current_numer_of_units=current_number_of_units+unit.unit_size
 		return true;
 	}
 	if (current_numer_of_units >= capacity) {
